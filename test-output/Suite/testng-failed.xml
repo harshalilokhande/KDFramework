@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.testingshastra.util.TestListeners"/>
+  </listeners>
+  <test thread-count="3" name="Safari(failed)" parallel="tests">
+    <parameter name="browser-name" value="Safari"/>
+    <classes>
+      <class name="com.Testcase.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyUserRedirectToJoinMeetingPage"/>
+          <include name="verifyTitleOfHomePage"/>
+          <include name="tearDown"/>
+          <include name="printAllInfoLinks"/>
+        </methods>
+      </class> <!-- com.Testcase.HomePageTest -->
+    </classes>
+  </test> <!-- Safari(failed) -->
+  <test thread-count="3" name="Chrome(failed)" parallel="tests">
+    <parameter name="browser-name" value="Chrome"/>
+    <classes>
+      <class name="com.Testcase.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyUserRedirectToJoinMeetingPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Testcase.HomePageTest -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
