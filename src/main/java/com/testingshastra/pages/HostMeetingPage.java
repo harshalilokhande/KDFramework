@@ -10,9 +10,11 @@ public class HostMeetingPage {
 	UIKeywords key = UIKeywords.getInstance();
 	@FindBy(css = "div#navbarContent li:nth-child(2)")
 	public WebElement hostMeetingTab;
+	
+	
 
-//@FindBy(css="div#navbarContent li:nth-child(2)")
-//public WebElement ;
+@FindBy(css="a.button--light")
+public WebElement tryItFree ;
 //@FindBy(css="div#navbarContent li:nth-child(2)")
 //public WebElement ;
 //@FindBy(css="div#navbarContent li:nth-child(2)")
@@ -24,6 +26,9 @@ public class HostMeetingPage {
 public void clickOnHostMeetingTab() {
 hostMeetingTab.click();
 	
+}
+public void clickOnTryItFree() {
+	tryItFree.click();
 }
 
 }
