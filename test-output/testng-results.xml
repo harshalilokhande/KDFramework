@@ -1,81 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="9" total="10" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="102162" started-at="2021-10-29T05:27:12Z" finished-at="2021-10-29T05:28:54Z">
+  <suite name="Default suite" duration-ms="21950" started-at="2021-10-31T17:09:21Z" finished-at="2021-10-31T17:09:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="102162" started-at="2021-10-29T05:27:12Z" finished-at="2021-10-29T05:28:54Z">
+    <test name="Default test" duration-ms="21950" started-at="2021-10-31T17:09:21Z" finished-at="2021-10-31T17:09:43Z">
       <class name="com.Testcase.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="setUp" is-config="true" duration-ms="11165" started-at="2021-10-29T05:27:12Z" finished-at="2021-10-29T05:27:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@6aba2b86]" name="setUp" is-config="true" duration-ms="21249" started-at="2021-10-31T17:09:21Z" finished-at="2021-10-31T17:09:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="printAllInfoLinks()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="printAllInfoLinks" duration-ms="2440" started-at="2021-10-29T05:27:23Z" finished-at="2021-10-29T05:27:26Z">
+        <test-method status="PASS" signature="VerifyClickOnWindowsIcon()[pri:0, instance:com.Testcase.HomePageTest@6aba2b86]" name="VerifyClickOnWindowsIcon" duration-ms="549" started-at="2021-10-31T17:09:42Z" finished-at="2021-10-31T17:09:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printAllInfoLinks -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="tearDown" is-config="true" duration-ms="104" started-at="2021-10-29T05:27:26Z" finished-at="2021-10-29T05:27:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="setUp" is-config="true" duration-ms="9675" started-at="2021-10-29T05:27:26Z" finished-at="2021-10-29T05:27:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTitleOfHomePage()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="verifyTitleOfHomePage" duration-ms="2065" started-at="2021-10-29T05:27:35Z" finished-at="2021-10-29T05:27:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitleOfHomePage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="tearDown" is-config="true" duration-ms="144" started-at="2021-10-29T05:27:37Z" finished-at="2021-10-29T05:27:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="setUp" is-config="true" duration-ms="10586" started-at="2021-10-29T05:27:38Z" finished-at="2021-10-29T05:27:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserRedirectToHostMeetingPage()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="verifyUserRedirectToHostMeetingPage" duration-ms="5858" started-at="2021-10-29T05:27:48Z" finished-at="2021-10-29T05:27:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserRedirectToHostMeetingPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="tearDown" is-config="true" duration-ms="85" started-at="2021-10-29T05:27:54Z" finished-at="2021-10-29T05:27:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="setUp" is-config="true" duration-ms="10806" started-at="2021-10-29T05:27:54Z" finished-at="2021-10-29T05:28:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserRedirectToJoinMeetingPage()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="verifyUserRedirectToJoinMeetingPage" duration-ms="7000" started-at="2021-10-29T05:28:05Z" finished-at="2021-10-29T05:28:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserRedirectToJoinMeetingPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="tearDown" is-config="true" duration-ms="93" started-at="2021-10-29T05:28:12Z" finished-at="2021-10-29T05:28:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="setUp" is-config="true" duration-ms="9642" started-at="2021-10-29T05:28:12Z" finished-at="2021-10-29T05:28:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserRedirectToSignInPage()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="verifyUserRedirectToSignInPage" duration-ms="4441" started-at="2021-10-29T05:28:22Z" finished-at="2021-10-29T05:28:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserRedirectToSignInPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="tearDown" is-config="true" duration-ms="80" started-at="2021-10-29T05:28:26Z" finished-at="2021-10-29T05:28:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="setUp" is-config="true" duration-ms="23634" started-at="2021-10-29T05:28:26Z" finished-at="2021-10-29T05:28:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserRedirectToSignUpPage()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="verifyUserRedirectToSignUpPage" duration-ms="4175" started-at="2021-10-29T05:28:50Z" finished-at="2021-10-29T05:28:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserRedirectToSignUpPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@333291e3]" name="tearDown" is-config="true" duration-ms="92" started-at="2021-10-29T05:28:54Z" finished-at="2021-10-29T05:28:54Z">
+        </test-method> <!-- VerifyClickOnWindowsIcon -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@6aba2b86]" name="tearDown" is-config="true" duration-ms="113" started-at="2021-10-31T17:09:43Z" finished-at="2021-10-31T17:09:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

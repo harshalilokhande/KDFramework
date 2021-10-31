@@ -18,6 +18,24 @@ public class HomePageTest extends Baseclass {
 	private static final Logger log = Logger.getLogger(HomePageTest.class);
 	UIKeywords keyword = UIKeywords.getInstance();
 
+	@Test(priority = -2)
+	public void verifyClickOnAndroidIconImage() throws InterruptedException {
+		HomePage home = PageFactory.initElements(keyword.driver, HomePage.class);
+		home.clickOnAndroidIcon();
+		Thread.sleep(2000);
+	}
+
+	@Test
+	public void VerifyClickOnAppleIcon() {
+		HomePage home = PageFactory.initElements(keyword.driver, HomePage.class);
+		home.clickOnAppleIcon();
+	}
+
+	@Test
+	public void VerifyClickOnWindowsIcon() {
+		HomePage home = PageFactory.initElements(keyword.driver, HomePage.class);
+		home.clickOnWindowsIcon();
+	}
 	@Test(priority = -1)
 	public void verifyTitleOfHomePage() {
 		String expectedTitle = "IJmeet";

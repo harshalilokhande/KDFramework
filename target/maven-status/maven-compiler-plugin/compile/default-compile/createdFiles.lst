@@ -1,8 +1,12 @@
+com/testingshastra/util/TestListeners.class
+com/Designkeyword/UIKeywords.class
+com/testingshastra/pages/ContactSalesPage.class
 com/baseclass/Application.class
 com/testingshastra/pages/HomePage.class
-com/testingshastra/util/TestListeners.class
 com/testingshastra/util/PropertiesFile.class
-com/Designkeyword/UIKeywords.class
 com/baseclass/Baseclass.class
+com/testingshastra/pages/SignUpPage.class
 com/testingshastra/util/WaitFor.class
+com/testingshastra/pages/HostMeetingPage.class
+com/testingshastra/pages/signInPage.class
 com/testingshastra/pages/JoinMeetingPage.class
