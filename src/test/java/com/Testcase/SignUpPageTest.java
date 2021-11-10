@@ -30,5 +30,9 @@ public class SignUpPageTest extends Baseclass{
 		Thread.sleep(5000);
 
 	}
+	@Test
+	public void m1() {
+    System.out.println("SignUpPageTest Chages");
+	}
 
 }
