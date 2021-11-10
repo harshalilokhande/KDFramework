@@ -7,7 +7,7 @@ import com.Designkeyword.UIKeywords;
 import com.baseclass.Baseclass;
 import com.testingshastra.pages.SignUpPage;
 
-public class SignUpPageTest extends Baseclass{
+public class SignUpPageTest extends Baseclass {
 	UIKeywords keyword = UIKeywords.getInstance();
 
 	@Test
@@ -29,6 +29,11 @@ public class SignUpPageTest extends Baseclass{
 		page.clickOnSignUpButton();
 		Thread.sleep(5000);
 
+	}
+
+	@Test
+	public void m1() {
+		System.out.println("SignUpPageTest");
 	}
 
 }
