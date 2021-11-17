@@ -2,82 +2,82 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="89010" started-at="2021-11-03T10:36:06Z" finished-at="2021-11-03T10:37:35Z">
+  <suite name="Suite" duration-ms="105540" started-at="2021-11-17T15:29:26Z" finished-at="2021-11-17T15:31:11Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="89010" started-at="2021-11-03T10:36:06Z" finished-at="2021-11-03T10:37:35Z">
+    <test name="Test" duration-ms="105540" started-at="2021-11-17T15:29:26Z" finished-at="2021-11-17T15:31:11Z">
       <class name="com.Testcase.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="setUp" is-config="true" duration-ms="12129" started-at="2021-11-03T10:36:06Z" finished-at="2021-11-03T10:36:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="setUp" is-config="true" duration-ms="13210" started-at="2021-11-17T15:29:26Z" finished-at="2021-11-17T15:29:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyClickOnAndroidIconImage()[pri:-2, instance:com.Testcase.HomePageTest@71809907]" name="verifyClickOnAndroidIconImage" duration-ms="3180" started-at="2021-11-03T10:36:18Z" finished-at="2021-11-03T10:36:22Z">
+        <test-method status="PASS" signature="verifyClickOnAndroidIconImage()[pri:-2, instance:com.Testcase.HomePageTest@71809907]" name="verifyClickOnAndroidIconImage" duration-ms="3198" started-at="2021-11-17T15:29:39Z" finished-at="2021-11-17T15:29:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickOnAndroidIconImage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="tearDown" is-config="true" duration-ms="88" started-at="2021-11-03T10:36:22Z" finished-at="2021-11-03T10:36:22Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="tearDown" is-config="true" duration-ms="121" started-at="2021-11-17T15:29:42Z" finished-at="2021-11-17T15:29:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="setUp" is-config="true" duration-ms="9223" started-at="2021-11-03T10:36:22Z" finished-at="2021-11-03T10:36:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="setUp" is-config="true" duration-ms="14043" started-at="2021-11-17T15:29:42Z" finished-at="2021-11-17T15:29:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyTitleOfHomePage()[pri:-1, instance:com.Testcase.HomePageTest@71809907]" name="verifyTitleOfHomePage" duration-ms="1450" started-at="2021-11-03T10:36:31Z" finished-at="2021-11-03T10:36:32Z">
+        <test-method status="PASS" signature="verifyTitleOfHomePage()[pri:-1, instance:com.Testcase.HomePageTest@71809907]" name="verifyTitleOfHomePage" duration-ms="36" started-at="2021-11-17T15:29:56Z" finished-at="2021-11-17T15:29:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleOfHomePage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="tearDown" is-config="true" duration-ms="154" started-at="2021-11-03T10:36:32Z" finished-at="2021-11-03T10:36:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="tearDown" is-config="true" duration-ms="85" started-at="2021-11-17T15:29:56Z" finished-at="2021-11-17T15:29:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="setUp" is-config="true" duration-ms="8942" started-at="2021-11-03T10:36:33Z" finished-at="2021-11-03T10:36:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="setUp" is-config="true" duration-ms="11238" started-at="2021-11-17T15:29:56Z" finished-at="2021-11-17T15:30:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyClickOnAppleIcon()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="VerifyClickOnAppleIcon" duration-ms="1422" started-at="2021-11-03T10:36:41Z" finished-at="2021-11-03T10:36:43Z">
+        <test-method status="PASS" signature="VerifyClickOnAppleIcon()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="VerifyClickOnAppleIcon" duration-ms="869" started-at="2021-11-17T15:30:08Z" finished-at="2021-11-17T15:30:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyClickOnAppleIcon -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="tearDown" is-config="true" duration-ms="78" started-at="2021-11-03T10:36:43Z" finished-at="2021-11-03T10:36:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="tearDown" is-config="true" duration-ms="132" started-at="2021-11-17T15:30:09Z" finished-at="2021-11-17T15:30:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="setUp" is-config="true" duration-ms="8928" started-at="2021-11-03T10:36:43Z" finished-at="2021-11-03T10:36:52Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="setUp" is-config="true" duration-ms="14091" started-at="2021-11-17T15:30:09Z" finished-at="2021-11-17T15:30:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyClickOnWindowsIcon()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="VerifyClickOnWindowsIcon" duration-ms="3112" started-at="2021-11-03T10:36:52Z" finished-at="2021-11-03T10:36:55Z">
+        <test-method status="PASS" signature="VerifyClickOnWindowsIcon()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="VerifyClickOnWindowsIcon" duration-ms="1240" started-at="2021-11-17T15:30:23Z" finished-at="2021-11-17T15:30:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyClickOnWindowsIcon -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="tearDown" is-config="true" duration-ms="99" started-at="2021-11-03T10:36:55Z" finished-at="2021-11-03T10:36:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="tearDown" is-config="true" duration-ms="91" started-at="2021-11-17T15:30:24Z" finished-at="2021-11-17T15:30:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="setUp" is-config="true" duration-ms="10405" started-at="2021-11-03T10:36:55Z" finished-at="2021-11-03T10:37:06Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="setUp" is-config="true" duration-ms="12056" started-at="2021-11-17T15:30:24Z" finished-at="2021-11-17T15:30:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserRedirectToJoinMeetingPage()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="verifyUserRedirectToJoinMeetingPage" duration-ms="6335" started-at="2021-11-03T10:37:06Z" finished-at="2021-11-03T10:37:12Z">
+        <test-method status="PASS" signature="verifyUserRedirectToJoinMeetingPage()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="verifyUserRedirectToJoinMeetingPage" duration-ms="6411" started-at="2021-11-17T15:30:36Z" finished-at="2021-11-17T15:30:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserRedirectToJoinMeetingPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="tearDown" is-config="true" duration-ms="85" started-at="2021-11-03T10:37:12Z" finished-at="2021-11-03T10:37:12Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.HomePageTest@71809907]" name="tearDown" is-config="true" duration-ms="95" started-at="2021-11-17T15:30:43Z" finished-at="2021-11-17T15:30:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Testcase.HomePageTest -->
       <class name="com.Testcase.signInPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.signInPageTest@3ce1e309]" name="setUp" is-config="true" duration-ms="9464" started-at="2021-11-03T10:37:12Z" finished-at="2021-11-03T10:37:21Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Testcase.signInPageTest@3ce1e309]" name="setUp" is-config="true" duration-ms="12573" started-at="2021-11-17T15:30:43Z" finished-at="2021-11-17T15:30:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkForvalidSignInData()[pri:0, instance:com.Testcase.signInPageTest@3ce1e309]" name="checkForvalidSignInData" duration-ms="13772" started-at="2021-11-03T10:37:21Z" finished-at="2021-11-03T10:37:35Z">
+        <test-method status="PASS" signature="checkForvalidSignInData()[pri:0, instance:com.Testcase.signInPageTest@3ce1e309]" name="checkForvalidSignInData" duration-ms="15848" started-at="2021-11-17T15:30:55Z" finished-at="2021-11-17T15:31:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForvalidSignInData -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.signInPageTest@3ce1e309]" name="tearDown" is-config="true" duration-ms="87" started-at="2021-11-03T10:37:35Z" finished-at="2021-11-03T10:37:35Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Testcase.signInPageTest@3ce1e309]" name="tearDown" is-config="true" duration-ms="120" started-at="2021-11-17T15:31:11Z" finished-at="2021-11-17T15:31:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

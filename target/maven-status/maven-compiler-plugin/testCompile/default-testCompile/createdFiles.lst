@@ -1,6 +1,9 @@
 com/Testcase/LanguageTranslatePageTest.class
+com/testingshastra/stepdefinitions/RunnerTest.class
 com/Testcase/HostMeetingPageTest.class
 com/Testcase/SignUpPageTest.class
 com/Testcase/signInPageTest.class
+com/testingshastra/stepdefinitions/Parameterization.class
 com/Testcase/HomePageTest.class
+com/testingshastra/stepdefinitions/Runner.class
 com/Testcase/ContactSalesPageTest.class
