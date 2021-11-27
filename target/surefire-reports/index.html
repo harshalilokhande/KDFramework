@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>CBT.xml</span>
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,31 +91,46 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,  3 skipped,  </span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.Testcase.HomePageTest" hash-for-method="printAllInfoLinks">printAllInfoLinks</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.Testcase.HomePageTest" hash-for-method="VerifyClickOnAppleIcon">VerifyClickOnAppleIcon</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.Testcase.HomePageTest" hash-for-method="VerifyClickOnWindowsIcon">VerifyClickOnWindowsIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.Testcase.signInPageTest" hash-for-method="checkForvalidSignInData">checkForvalidSignInData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.Testcase.HomePageTest" hash-for-method="verifyClickOnAndroidIconImage">verifyClickOnAndroidIconImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.Testcase.HomePageTest" hash-for-method="verifyTitleOfHomePage">verifyTitleOfHomePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.Testcase.HomePageTest" hash-for-method="verifyUserRedirectToJoinMeetingPage">verifyUserRedirectToJoinMeetingPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -127,43 +142,46 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
+              <span class="class-name">com.Testcase.signInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkForvalidSignInData">
+                  </a> <!-- checkForvalidSignInData -->
+                  <span class="method-name">checkForvalidSignInData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.Testcase.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="printAllInfoLinks">
-                  </a> <!-- printAllInfoLinks -->
-                  <span class="method-name">printAllInfoLinks</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not create a session: You must enable the &apos;Allow Remote Automation&apos; option in Safari&apos;s Develop menu to control Safari via WebDriver.
-Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
-System info: host: &apos;Sachins-MBP&apos;, ip: &apos;fd01:0:0:0:831:fd00:e8c2:f19a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.safari.SafariDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: safari}], desiredCapabilities=Capabilities {browserName: safari}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:165)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:81)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:63)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:41)
-	at com.Designkeyword.UIKeywords.openBrowser(UIKeywords.java:45)
-	at com.baseclass.Baseclass.setUp(Baseclass.java:19)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 19 stack frames
-</div> <!-- stack-trace -->
+                  <a name="VerifyClickOnAppleIcon">
+                  </a> <!-- VerifyClickOnAppleIcon -->
+                  <span class="method-name">VerifyClickOnAppleIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyClickOnWindowsIcon">
+                  </a> <!-- VerifyClickOnWindowsIcon -->
+                  <span class="method-name">VerifyClickOnWindowsIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClickOnAndroidIconImage">
+                  </a> <!-- verifyClickOnAndroidIconImage -->
+                  <span class="method-name">verifyClickOnAndroidIconImage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -171,32 +189,6 @@ Capabilities {}
                   <a name="verifyTitleOfHomePage">
                   </a> <!-- verifyTitleOfHomePage -->
                   <span class="method-name">verifyTitleOfHomePage</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not create a session: You must enable the &apos;Allow Remote Automation&apos; option in Safari&apos;s Develop menu to control Safari via WebDriver.
-Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
-System info: host: &apos;Sachins-MBP&apos;, ip: &apos;fd01:0:0:0:831:fd00:e8c2:f19a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.safari.SafariDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: safari}], desiredCapabilities=Capabilities {browserName: safari}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:165)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:81)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:63)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:41)
-	at com.Designkeyword.UIKeywords.openBrowser(UIKeywords.java:45)
-	at com.baseclass.Baseclass.setUp(Baseclass.java:19)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 19 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -204,70 +196,27 @@ Capabilities {}
                   <a name="verifyUserRedirectToJoinMeetingPage">
                   </a> <!-- verifyUserRedirectToJoinMeetingPage -->
                   <span class="method-name">verifyUserRedirectToJoinMeetingPage</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not create a session: You must enable the &apos;Allow Remote Automation&apos; option in Safari&apos;s Develop menu to control Safari via WebDriver.
-Build info: version: &apos;4.0.0-beta-4&apos;, revision: &apos;29f46d02dd&apos;
-System info: host: &apos;Sachins-MBP&apos;, ip: &apos;fd01:0:0:0:831:fd00:e8c2:f19a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.safari.SafariDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: safari}], desiredCapabilities=Capabilities {browserName: safari}}]
-Capabilities {}
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:137)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:612)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:165)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:81)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:63)
-	at org.openqa.selenium.safari.SafariDriver.&lt;init&gt;(SafariDriver.java:41)
-	at com.Designkeyword.UIKeywords.openBrowser(UIKeywords.java:45)
-	at com.baseclass.Baseclass.setUp(Baseclass.java:19)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 19 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/sachinshelar/Desktop/harshali/KeywordDrivenFramework2/CBT.xml</span>
+            <span class="header-content">/Users/sachinshelar/Desktop/harshali/KDFramework/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.testingshastra.util.TestListeners&quot;/&gt;
-  &lt;/listeners&gt;
-  &lt;test thread-count=&quot;3&quot; verbose=&quot;0&quot; name=&quot;Chrome&quot; parallel=&quot;tests&quot;&gt;
-    &lt;parameter name=&quot;browser-name&quot; value=&quot;Chrome&quot;/&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.baseclass.Baseclass&quot;/&gt;
       &lt;class name=&quot;com.Testcase.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.Testcase.signInPageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Chrome --&gt;
-  &lt;test thread-count=&quot;3&quot; verbose=&quot;0&quot; name=&quot;Safari&quot; parallel=&quot;tests&quot;&gt;
-    &lt;parameter name=&quot;browser-name&quot; value=&quot;Safari&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.baseclass.Baseclass&quot;/&gt;
-      &lt;class name=&quot;com.Testcase.HomePageTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Safari --&gt;
-  &lt;test thread-count=&quot;3&quot; verbose=&quot;0&quot; name=&quot;Firefox&quot; parallel=&quot;tests&quot;&gt;
-    &lt;parameter name=&quot;browser-name&quot; value=&quot;Firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.baseclass.Baseclass&quot;/&gt;
-      &lt;class name=&quot;com.Testcase.HomePageTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Firefox --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -279,13 +228,7 @@ Capabilities {}
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Chrome (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Safari (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Firefox (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -311,24 +254,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyTitleOfHomePage')
-data.setCell(0, 2, 'com.Testcase.HomePageTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'checkForvalidSignInData')
+data.setCell(0, 2, 'com.Testcase.signInPageTest')
+data.setCell(0, 3, 15848);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'printAllInfoLinks')
+data.setCell(1, 1, 'verifyUserRedirectToJoinMeetingPage')
 data.setCell(1, 2, 'com.Testcase.HomePageTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 6411);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyUserRedirectToJoinMeetingPage')
+data.setCell(2, 1, 'verifyClickOnAndroidIconImage')
 data.setCell(2, 2, 'com.Testcase.HomePageTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 3, 3198);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyClickOnWindowsIcon')
+data.setCell(3, 2, 'com.Testcase.HomePageTest')
+data.setCell(3, 3, 1240);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyClickOnAppleIcon')
+data.setCell(4, 2, 'com.Testcase.HomePageTest')
+data.setCell(4, 3, 869);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyTitleOfHomePage')
+data.setCell(5, 2, 'com.Testcase.HomePageTest')
+data.setCell(5, 3, 36);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -356,91 +311,80 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.Testcase.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(Chrome)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(Firefox)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">setUp(Safari)</span>
+                <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">printAllInfoLinks</span>
-                <span class="method-start">10740 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">printAllInfoLinks</span>
-                <span class="method-start">13798 ms</span>
+                <span class="method-name">verifyClickOnAndroidIconImage</span>
+                <span class="method-start">13211 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16285 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">16285 ms</span>
+                <span class="method-start">16414 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(Firefox)</span>
-                <span class="method-start">16460 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(Chrome)</span>
-                <span class="method-start">16460 ms</span>
+                <span class="method-name">setUp</span>
+                <span class="method-start">16541 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyTitleOfHomePage</span>
-                <span class="method-start">27601 ms</span>
+                <span class="method-start">30584 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">27631 ms</span>
+                <span class="method-start">30624 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(Firefox)</span>
-                <span class="method-start">28128 ms</span>
+                <span class="method-name">setUp</span>
+                <span class="method-start">30714 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyTitleOfHomePage</span>
-                <span class="method-start">30785 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifyUserRedirectToJoinMeetingPage</span>
-                <span class="method-start">35827 ms</span>
+                <span class="method-name">VerifyClickOnAppleIcon</span>
+                <span class="method-start">41953 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35828 ms</span>
+                <span class="method-start">42823 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(Chrome)</span>
-                <span class="method-start">36296 ms</span>
+                <span class="method-name">setUp</span>
+                <span class="method-start">42956 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifyUserRedirectToJoinMeetingPage</span>
-                <span class="method-start">46360 ms</span>
+                <span class="method-name">VerifyClickOnWindowsIcon</span>
+                <span class="method-start">57047 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">printAllInfoLinks</span>
-                <span class="method-start">-1635248295172 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyTitleOfHomePage</span>
-                <span class="method-start">-1635248295172 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58288 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">58380 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyUserRedirectToJoinMeetingPage</span>
-                <span class="method-start">-1635248295172 ms</span>
+                <span class="method-start">70436 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76865 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Testcase.signInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">76961 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkForvalidSignInData</span>
+                <span class="method-start">89534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">105403 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

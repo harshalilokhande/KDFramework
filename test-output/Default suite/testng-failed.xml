@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Testcase.SignUpPageTest">
+      <class name="com.testinfshastra.stepdefinitions.Runner">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="verifyUserCanMakeAccountUsingSignUp"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- com.Testcase.SignUpPageTest -->
+      </class> <!-- com.testinfshastra.stepdefinitions.Runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -19,12 +19,21 @@ public class HomePage {
 	@FindBy(css = "div#navbarContent li:nth-child(1)") // automatically call driver instance call find element and set
 														// variable with this locator
 	public WebElement joinMeetingTab;// set the variable with css locator
-	
+
 	@FindBy(css = "div.footer-last-view-support ul")
 	public List<WebElement> infoLinks;
 
-	
-	public WebElement navbarContent;//if not write locator it find it bydefault using id or name written as webelement
+	public WebElement navbarContent;// if not write locator it find it bydefault using id or name written as
+									// webelement
+
+	@FindBy(css = "div.mv-icons-add-views img")
+	public WebElement androidIcon;
+
+	@FindBy(css = "div.mv-icons-add-views:nth-child(2) img")
+	public WebElement appleIcon;
+
+	@FindBy(css = "div.mv-icons-add-views:nth-child(3) img")
+	public WebElement windowIcon;
 
 	public HomePage() {
 		PageFactory.initElements(keyword.driver, this);
@@ -41,11 +50,20 @@ public class HomePage {
 		}
 	}
 
-	
-
 	public void rightClickOnNavBar() {
 		Actions act = new Actions(keyword.driver);
 		act.contextClick(navbarContent).build().perform();
-}
+	}
 
+	public void clickOnAndroidIcon() {
+		androidIcon.click();
+	}
+
+	public void clickOnAppleIcon() {
+		appleIcon.click();
+	}
+
+	public void clickOnWindowsIcon() {
+		windowIcon.click();
+	}
 }

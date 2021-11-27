@@ -15,5 +15,4 @@ public class HostMeetingPageTest {
 		HostMeetingPage page = PageFactory.initElements(keyword.driver, HostMeetingPage.class);
 		page.clickOnHostMeetingTab();
 	}
-
 }
