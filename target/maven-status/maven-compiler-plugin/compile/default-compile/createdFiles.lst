@@ -1,4 +1,5 @@
 com/testingshastra/util/TestListeners.class
+com/testingshastra/pages/LanguageTranslatePage.class
 com/Designkeyword/UIKeywords.class
 com/testingshastra/pages/ContactSalesPage.class
 com/baseclass/Application.class

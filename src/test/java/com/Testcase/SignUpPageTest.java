@@ -34,6 +34,7 @@ public class SignUpPageTest extends Baseclass {
 	@Test
 	public void m1() {
 		System.out.println("SignUpPageTest");
+		System.out.println("New SignUPPageTest");
 	}
 
 }
